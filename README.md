@@ -8,11 +8,17 @@ Este projeto foi criado para demonstrar testes automatizados em uma API REST uti
 
 Validar os seguintes métodos HTTP da API:
 
-- ✅ `GET` - Buscar posts
-- ✅ `POST` - Criar posts
-- ✅ `PUT` - Atualizar posts
-- ✅ `DELETE` - Excluir posts
+-  `GET` - Buscar posts
+-  `POST` - Criar posts
+-  `PUT` - Atualizar posts
+-  `DELETE` - Excluir posts
 
 ---
+## Tecnologias usadas
+- Node.js
+- Cypress
+- Cucumber (BDD)
 
-# Estrutura do Projeto
+## Como rodar o projeto
+
+1. Instale as dependências:
