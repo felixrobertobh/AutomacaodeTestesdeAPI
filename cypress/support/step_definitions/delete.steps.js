@@ -1,6 +1,6 @@
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
 
-Given("que a API está disponível", () => {
+Given("que a API está disponível 1", () => {
   cy.log("API disponível");
 });
 

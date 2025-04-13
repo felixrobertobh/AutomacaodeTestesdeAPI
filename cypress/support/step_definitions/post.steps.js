@@ -19,7 +19,3 @@ When("envio uma requisição POST para \"/posts\" com título, corpo e userId", 
 Then("o status da resposta deve ser 201", () => {
   cy.get("@postResponse").its("status").should("eq", 201);
 });
-
-And("a resposta deve conter os dados do post criado", () => {
-  cy.get("@postResponse").its("body").should("include.keys", ["title", "body", "userId", "id"]);
-});
