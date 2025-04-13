@@ -5,6 +5,6 @@ Feature: Consulta de posts existentes
   Para visualizar as informações publicadas
 
   Scenario: Buscar todos os posts com sucesso
-    Given que a API está disponível
+    Given que a API está disponível 2
     When realizo uma requisição GET para '/posts'
     Then o status da resposta deve ser 200
